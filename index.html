@@ -15,7 +15,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-nd bg-black">
+        <nav class="navbar navbar-expand-nd bg-black" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Andrea</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#presentacion">Yo</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white" href="#habilidades">Habilidades</a>
@@ -39,7 +39,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -56,11 +56,9 @@
                         width="700" height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with
-                        image</h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <!-- Cambiar la imagen -->
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Andrea Ceja</h1>
+                    <p class="lead">Hola, soy Andrea, me apasiona la ciencia, el arte y aprender cosas nuevas.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -73,7 +71,7 @@
         <section id="habilidades" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Features with title</h2>
 
-            <section id="proyectos" class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <section class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
                 <div class="col d-flex flex-column align-items-start gap-2">
                     <h2 class="fw-bold text-body-emphasis">Left-aligned title explaining these awesome features</h2>
                     <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll
@@ -135,7 +133,7 @@
             </section>
         </section>
 
-        <div class="container px-4 py-5" id="custom-cards">
+        <div id="proyectos" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Custom cards</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -224,7 +222,7 @@
         </div>
 
         <section>
-            <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+            <div id="testimonios" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
