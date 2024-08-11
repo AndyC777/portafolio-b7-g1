@@ -1,7 +1,7 @@
 //CRUD: Lo que se puede hacer en la computación
 //crear, leer, actualizar y borrar
 
-alert("Hola Mundo! <3");
+//alert("Hola Mundo! <3");
 
 // tipo variable nombreVariable=ValordelaVariable
 //Las palabras en JS van entre comillas
@@ -29,3 +29,5 @@ typewriter
   .typeString('Desarrolladora Frontend JR')
   .pauseFor(1000)
   .start();
+
+  
