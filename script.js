@@ -10,7 +10,7 @@
 
 var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
+var typewriter = new Typewriter(app,{
   loop: true,
   delay: 75,
 });
@@ -20,14 +20,10 @@ var typewriter = new Typewriter(app, {
 //Colocar el ID en el texto que se desea que cambie
 typewriter
   .pauseFor(2500)
-  //Escrbir una palabra
   .typeString('Andrea Ceja')
-  //Pausar
   .pauseFor(300)
-  //Borrar e indica cuantos caracteres o si se quiere borrar todo, "deleteall"
-  .delleteAll()
-  .typeString('Desarrolladora Frontend JR')
+  .deleteAll()
+  .typeString('Desarrolladora Front End Jr')
   .pauseFor(1000)
   .start();
-
   

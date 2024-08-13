@@ -1,13 +1,23 @@
 #presentacion{
     height: 90vh;
     display: flex;
+    justify-content: start;
     align-items: center;
 
-    background-image: url(assets/fondo.png);
+    background-image: url(assets/fondocool.gif);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-personalizado{
+        color: white;
+    }
 }
 
-
+body{
+    background-color: rgb(5, 0, 7);
+}
+/* rgb(55, 29, 74) */
 .proyecto{
     background-size: contain;
     background-repeat: no-repeat;
